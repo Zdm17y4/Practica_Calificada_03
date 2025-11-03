@@ -1,0 +1,8 @@
+{
+  "id": "policy-002",
+  "description": "Deniega escritura de documentos a usuarios invitados",
+  "subject": { "role": "guest" },
+  "resource": "document",
+  "action": "write",
+  "effect": "deny"
+}

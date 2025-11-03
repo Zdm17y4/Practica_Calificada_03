@@ -1,0 +1,8 @@
+{
+  "id": "policy-003",
+  "description": "Permite cualquier acción a los administradores",
+  "subject": { "role": "admin" },
+  "resource": "*",
+  "action": "*",
+  "effect": "permit"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "policy-001",
+  "description": "Permite lectura de documentos a usuarios con rol lector",
+  "subject": { "role": "reader" },
+  "resource": "document",
+  "action": "read",
+  "effect": "permit"
+}
